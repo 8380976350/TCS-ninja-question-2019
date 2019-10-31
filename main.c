@@ -30,6 +30,13 @@ for(k=1;k<=(r-1);k++){
                 new = i;
                 flag=0;
              }
+                   if(k%2 <= 0){
+
+      a=b;
+      b=n;
+      n=a+b;
+  printf(" %d ",n);//1,
+    }
             }
     }
 
