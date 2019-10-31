@@ -40,6 +40,13 @@ for(k=1;k<=(r-1);k++){
       n=a+b;
   printf(" %d ",n);//1,
     }
+       if(k%2 <= 0){
+
+      a=b;
+      b=n;
+      n=a+b;
+  printf(" %d ",n);//1,
+    }
 
 }
 
